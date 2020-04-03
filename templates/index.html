@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<title>{{title}}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{url_for('static', filename='assets/css/main.css')}}">
+		<noscript><link rel="stylesheet" href="{{url_for('static', filename='assets/css/noscript.css')}}"></noscript>
+		<link rel="shortcut icon" href="{{url_for('static', filename='images/covidivoire-logo.ico')}}">
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/covidivoire-logo.png" alt="" /></span>
+									<span class="title">Site de la situation du COVID-19 en Côte d'Ivoire</span>
+								</a>
+						</div>
+					</header>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img src="images/cases-covid-confirmed.png" alt="" />
+									</span>
+									<a href="#">
+										<h1>{{info_cases}}</h1>
+										<h4>CAS CONFIRMÉS</h4>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/cases-covid-active.png" alt="" />
+									</span>
+									<a href="#">
+										<h1>{{info_active}}</h1>
+										<h4>CAS ACTIFS</h4>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img src="images/recovered-covid.png" alt="" />
+									</span>
+									<a href="#">
+										<h1>{{info_recovered}}</h1>
+										<h4>CAS GUÉRIS</h4>
+									</a>
+								</article>
+								<article class="style4">
+									<span class="image">
+										<img src="images/death-covid.png" alt="" />
+									</span>
+									<a href="#">
+										<h1>{{info_deaths}}</h1>
+										<h4>CAS DE DÉCÈS</h4>
+									</a>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="copyright">
+								<li>&copy; COVID IVOIRE 2020. Tous droits réservés</li><li>Développé par <a href="http://github.com/paulbouaffou" target="_blank">Paul Bouaffou</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{{url_for('static', filename='assets/js/jquery.min.js')}}"></script>
+			<script src="{{url_for('static', filename='assets/js/browser.min.js')}}"></script>
+			<script src="{{url_for('static', filename='assets/js/breakpoints.min.js')}}"></script>
+			<script src="{{url_for('static', filename='assets/js/util.js')}}"></script>
+			<script src="{{url_for('static', filename='assets/js/main.js')}}"></script>
+
+	</body>
+</html>
