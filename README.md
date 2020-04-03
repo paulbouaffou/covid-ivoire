@@ -1,4 +1,4 @@
-# covid ivoire
+# COVID IVOIRE
 
 Information platform on the situation of CORONAVIRUS (COVID-19) in Côte d'Ivoire
 

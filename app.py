@@ -32,7 +32,7 @@ def home():
 	info_active = int(info['active'])
 
 	#return home page
-	return render_template('index.html', title = "Covid Ivoire | Site de la situation du COVID-19 en Côte d'Ivoire", info_cases=info_cases, info_deaths=info_deaths, info_recovered=info_recovered, info_active=info_active)
+	return render_template('index.html', title = "COVID IVOIRE | Site d'information sur la situation du COVID-19 en Côte d'Ivoire", info_cases=info_cases, info_deaths=info_deaths, info_recovered=info_recovered, info_active=info_active)
 
 # Execute the application
 if __name__ == '__main__':
