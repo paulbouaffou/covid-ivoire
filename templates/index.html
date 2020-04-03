@@ -18,7 +18,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/covidivoire-logo.png" alt="" /></span>
+									<span class="symbol"><img src="{{url_for('static', filename='images/covidivoire-logo.png')}}" alt="" /></span>
 									<span class="title">Site de la situation du COVID-19 en Côte d'Ivoire</span>
 								</a>
 						</div>
@@ -29,7 +29,7 @@
 							<section class="tiles">
 								<article class="style1">
 									<span class="image">
-										<img src="images/cases-covid-confirmed.png" alt="" />
+										<img src="{{url_for('static', filename='images/cases-covid-confirmed.png')}}" alt="" />
 									</span>
 									<a href="#">
 										<h1>{{info_cases}}</h1>
@@ -38,7 +38,7 @@
 								</article>
 								<article class="style2">
 									<span class="image">
-										<img src="images/cases-covid-active.png" alt="" />
+										<img src="{{url_for('static', filename='images/cases-covid-active.png')}}" alt="" />
 									</span>
 									<a href="#">
 										<h1>{{info_active}}</h1>
@@ -47,7 +47,7 @@
 								</article>
 								<article class="style3">
 									<span class="image">
-										<img src="images/recovered-covid.png" alt="" />
+										<img src="{{url_for('static', filename='images/recovered-covid.png')}}" alt="" />
 									</span>
 									<a href="#">
 										<h1>{{info_recovered}}</h1>
@@ -56,7 +56,7 @@
 								</article>
 								<article class="style4">
 									<span class="image">
-										<img src="images/death-covid.png" alt="" />
+										<img src="{{url_for('static', filename='images/death-covid.png')}}" alt="" />
 									</span>
 									<a href="#">
 										<h1>{{info_deaths}}</h1>
